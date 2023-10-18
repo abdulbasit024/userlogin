@@ -1,0 +1,131 @@
+/* INDEX CSS  */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+}
+
+.headerCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(49,154,196);
+    background: linear-gradient(106deg, rgba(49,154,196,1) 0%, rgba(217,153,253,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 80px;
+    width: auto;
+}
+
+.logoutBtn{
+    width: 80px;
+    padding: 10px;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logoutBtn:hover{
+    transition: 0.3s ease;
+    background-color: gainsboro;
+}
+
+/* MAIN  */
+main{
+    display: flex;
+    justify-content: center;
+    gap: 20px   ;
+    margin: 40px;
+    width: auto;
+
+}
+
+.col1{
+    /* width: 500px; */
+}
+
+.userManagementCard {
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.newUserSpan{
+    margin-top: 20px;
+}
+.productListCard,.testingListCard {
+    /* width: 1200px; */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border: none;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+a{
+    border-radius: 5px;
+    padding: 5px 12px;
+    text-decoration: none;
+    background-color: rgb(243, 243, 243);
+    background-color: transparent;
+    border: 1px solid rgb(170, 170, 170);
+    color: black;
+}
+
+a:hover{
+    transition: 0.3s ease;
+    background-color: gainsboro;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
